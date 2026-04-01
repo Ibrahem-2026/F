@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منصة الفيزياء | تدريب التحصيلي</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
+        body { font-family: 'Tajawal', sans-serif; }
+        .hero-gradient { background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%); }
+        .card-hover:hover { transform: translateY(-10px); transition: all 0.3s ease; }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+    <nav class="bg-white shadow-md p-4 sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-blue-700 underline tracking-tighter">أكاديمية الفيزياء</h1>
+            <div class="space-x-reverse space-x-4">
+                <a href="#" class="text-gray-600 hover:text-blue-600">الرئيسية</a>
+                <a href="#" class="bg-blue-600 text-white px-4 py-2 rounded-lg">تسجيل دخول</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-gradient text-white py-20 px-4 text-center">
+        <h2 class="text-4xl md:text-5xl font-bold mb-4">استعد لاجتياز اختبار التحصيلي بذكاء</h2>
+        <p class="text-xl opacity-90">شروحات، تدريبات، ونماذج محاكية لمادة الفيزياء لجميع المراحل</p>
+    </header>
+
+    <main class="container mx-auto py-16 px-4">
+        <div class="text-center mb-12">
+            <h3 class="text-3xl font-bold text-gray-800">اختر المستوى الدراسي</h3>
+            <div class="w-24 h-1 bg-blue-500 mx-auto mt-2"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            
+            <div class="bg-white p-8 rounded-2xl shadow-lg text-center card-hover border-b-4 border-blue-500">
+                <div class="w-20 h-20 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <i class="fas fa-atom text-3xl text-blue-600"></i>
+                </div>
+                <h4 class="text-2xl font-bold mb-4 text-gray-700">فيزياء 1</h4>
+                <p class="text-gray-500 mb-6">أساسيات القياس، الميكانيكا، والقوى والحركة.</p>
+                <button class="w-full bg-blue-600 text-white py-2 rounded-xl hover:bg-blue-700 transition">ابدأ التدريب الآن</button>
+            </div>
+
+            <div class="bg-white p-8 rounded-2xl shadow-lg text-center card-hover border-b-4 border-green-500">
+                <div class="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <i class="fas fa-wave-square text-3xl text-green-600"></i>
+                </div>
+                <h4 class="text-2xl font-bold mb-4 text-gray-700">فيزياء 2</h4>
+                <p class="text-gray-500 mb-6">الطاقة، الحرارة، الصوت، والضوء والمرايا.</p>
+                <button class="w-full bg-green-600 text-white py-2 rounded-xl hover:bg-green-700 transition">ابدأ التدريب الآن</button>
+            </div>
+
+            <div class="bg-white p-8 rounded-2xl shadow-lg text-center card-hover border-b-4 border-purple-500">
+                <div class="w-20 h-20 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <i class="fas fa-bolt text-3xl text-purple-600"></i>
+                </div>
+                <h4 class="text-2xl font-bold mb-4 text-gray-700">فيزياء 3 & 4</h4>
+                <p class="text-gray-500 mb-6">الكهرباء، المغناطيسية، والفيزياء النووية والحديثة.</p>
+                <button class="w-full bg-purple-600 text-white py-2 rounded-xl hover:bg-purple-700 transition">ابدأ التدريب الآن</button>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="bg-gray-800 text-gray-300 py-10 text-center">
+        <p>© 2026 منصة الفيزياء للتحصيلي - جميع الحقوق محفوظة</p>
+        <div class="mt-4 space-x-reverse space-x-4">
+            <i class="fab fa-twitter hover:text-blue-400 cursor-pointer"></i>
+            <i class="fab fa-telegram hover:text-blue-500 cursor-pointer"></i>
+        </div>
+    </footer>
+
+</body>
+</html>
